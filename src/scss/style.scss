@@ -1,0 +1,9 @@
+@mixin line-height {
+  line-height: 16px;
+}
+
+body {
+  font-weight: 16px;
+
+  @include line-height;
+}
