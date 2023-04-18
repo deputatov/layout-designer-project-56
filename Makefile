@@ -7,7 +7,10 @@ lint:
 	npx htmlhint ./src/*.html
 
 compile:
-	npx sass ./src/scss:./src/css
+	npx sass --no-source-map ./src/scss:./src/css
+
+watch:
+	npx sass --watch --no-source-map ./src/scss:./src/css
 
 deploy:
 	npx surge ./src/
