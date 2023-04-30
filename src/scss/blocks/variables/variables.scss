@@ -6,11 +6,42 @@ $default-background-color: #08020d;
 
 // desktop headings
 $uppercase-heading: uppercase;
+$h1-desktop-font-size: 60px;
+$h1-desktop-line-height: 90px;
+$h1-desktop-font-weight: bold;
 
-$h1-font-size: 60px;
-$h1-line-height: 90px;
-$h1-font-weight: bold;
+$h2-desktop-font-size: 38px;
+$h2-desktop-line-height: 57px;
+$h2-desktop-font-weight: bold;
 
-$h2-font-size: 38px;
-$h2-line-height: 57px;
-$h2-font-weight: bold;
+@mixin h1-desktop-heading {
+  font-size: 60px;
+  line-height: 90px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+@mixin h2-desktop-heading {
+  font-size: 38px;
+  line-height: 57px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+// mobile headings
+@mixin h1-mobile-heading {
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+@mixin h2-mobile-heading {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+
