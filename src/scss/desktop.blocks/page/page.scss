@@ -1,17 +1,15 @@
-@use './__body/page__body.scss';
-
 @font-face {
   font-weight: 400;
   font-family: Roboto;
   src: url('./Roboto-Regular.ttf');
 }
-  
+
 @font-face {
   font-weight: 500;
   font-family: Roboto;
   src: url('./Roboto-Medium.ttf');
 }
-  
+
 @font-face {
   font-weight: 700;
   font-family: Roboto;
@@ -20,5 +18,14 @@
 
 .page {
   font-family: Roboto, sans-serif;
+}
+
+.page__body {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  margin: auto;
+  max-width: 1440px;
+  justify-content: center;
 }
 

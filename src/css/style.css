@@ -1,8 +1,3 @@
-.page__body {
-  display: grid;
-  margin: auto;
-}
-
 @font-face {
   font-weight: 400;
   font-family: Roboto;
@@ -20,4 +15,13 @@
 }
 .page {
   font-family: Roboto, sans-serif;
+}
+
+.page__body {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  margin: auto;
+  max-width: 1440px;
+  justify-content: center;
 }
