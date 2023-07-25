@@ -1,1 +1,2 @@
-@use './desktop.blocks/page/page.scss'
+@forward './desktop.blocks/page/page.scss';
+@forward './desktop.blocks/page-description/page-description.scss';
