@@ -4,6 +4,10 @@ $default-line-height: 1.5;
 $default-text-color: #cacaca;
 $default-background-color: #08020d;
 
+$default-font-regular-path: '../fonts/Roboto-Regular.ttf';
+$default-font-medium-path: '../fonts/Roboto-Medium.ttf';
+$default-font-bold-path: '../fonts/Roboto-Bold.ttf';
+
 // desktop headings
 $uppercase-heading: uppercase;
 $h1-desktop-font-size: 60px;
@@ -42,6 +46,8 @@ $h2-desktop-font-weight: bold;
   font-weight: bold;
   text-transform: uppercase;
 }
+
+
 
 
 

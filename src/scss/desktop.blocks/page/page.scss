@@ -1,22 +1,21 @@
+@use '../../variables.scss' as *;
+
 @font-face {
   font-weight: 400;
   font-family: Roboto;
-  // src: url('./Roboto-Regular.ttf');
-  src: url('../../../fonts/Roboto-Regular.ttf')
+  src: url($default-font-regular-path);
 }
 
 @font-face {
   font-weight: 500;
   font-family: Roboto;
-  // src: url('./Roboto-Medium.ttf');
-  src: url('../../../fonts/Roboto-Medium.ttf')
+  src: url($default-font-medium-path);
 }
 
 @font-face {
   font-weight: 700;
   font-family: Roboto;
-  // src: url('./Roboto-Bold.ttf');
-  src: url('../../../fonts/Roboto-Bold.ttf')
+  src: url($default-font-bold-path);
 }
 
 .page {
